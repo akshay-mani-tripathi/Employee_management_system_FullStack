@@ -17,7 +17,7 @@ import ChangePassword from "./pages/ChangePassword"; // ✅ Import ChangePasswor
 import "./App.css";
 import { AuthContext } from "./context/AuthProvider";
 
-const API_BASE = "http://localhost:5000/api";
+const API_BASE = "https://employee-management-system-fullstack-a18n.onrender.com/api";
 
 function App() {
   const { userData, setUserData } = useContext(AuthContext);
