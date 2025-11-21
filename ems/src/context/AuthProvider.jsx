@@ -1,7 +1,7 @@
 import React, { createContext, useEffect, useState } from "react";
 import axios from "axios";
 
-const API_BASE = "http://localhost:5000/api";
+const API_BASE = "https://employee-management-system-fullstack-a18n.onrender.com/api";
 export const AuthContext = createContext();
 
 const AuthProvider = ({ children }) => {
