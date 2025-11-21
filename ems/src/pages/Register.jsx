@@ -5,7 +5,7 @@ import { ArrowLeft } from "lucide-react";
 import { motion } from "framer-motion";
 import { AuthContext } from "../context/AuthProvider";
 
-const API_BASE = "http://localhost:5000/api";
+const API_BASE = "https://employee-management-system-fullstack-a18n.onrender.com/api";
 
 const Register = () => {
   const navigate = useNavigate();
