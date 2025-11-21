@@ -6,7 +6,7 @@ import axios from "axios";
 import { AuthContext } from "../../context/AuthProvider";
 import { motion } from "framer-motion";
 
-const API_BASE = "https://employee-management-system-fullstack-a18n.onrender.com";
+const API_BASE = "https://employee-management-system-fullstack-a18n.onrender.com/api";
 
 const EmployeeDashboard = ({ changeUser, handleLogout }) => {
   const [userData, setUserData] = useState(null);
