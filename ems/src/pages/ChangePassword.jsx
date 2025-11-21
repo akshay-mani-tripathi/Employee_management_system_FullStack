@@ -3,7 +3,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 
-const API_BASE = "http://localhost:5000/api";
+const API_BASE = "https://employee-management-system-fullstack-a18n.onrender.com/api";
 
 const ChangePassword = () => {
   const [email, setEmail] = useState("");
